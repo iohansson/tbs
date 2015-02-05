@@ -1,0 +1,13 @@
+.animation-width {
+  width: 11.5em;
+}
+.animation-width.ng-hide {
+  width: 0;
+}
+.animation-width.ng-hide-add,
+.animation-width.ng-hide-remove {
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}

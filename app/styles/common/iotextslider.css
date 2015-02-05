@@ -1,0 +1,20 @@
+.io-text-slider {
+  margin-left: 2em;
+  position: relative;
+}
+  .io-text-slider-hide {
+    display: none;
+  }
+
+  /* that's for narrow screen */
+  .long-text-inside,
+  .huge-text-inside {
+    margin-left: 1em;
+  }
+
+  @media only screen and (min-width: 67.5em) {
+    .long-text-inside,
+    .huge-text-inside {
+      margin-left: 2em;
+    }
+  }

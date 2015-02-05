@@ -1,0 +1,92 @@
+/* Layout */
+html,
+body,
+.full-container {
+  height: 100%;
+}
+
+header {
+  padding: 1em 5em;
+}
+  .logo-container {
+    float: left;
+  }
+  .controls {
+    float: right;
+  }
+    .control-entry {
+      display: inline-block;
+      margin-right: 1em;
+    }
+    .control-entry:last-child {
+      margin-right: 0;
+    }
+      .heart path {
+        fill: none;
+        stroke-width: 1.5px;
+        stroke: #333;
+      }
+      .heart:hover path {
+        stroke: #ff0033;
+      }
+      .heart.open path {
+        stroke: #ff0033;
+        fill: #ff0033;
+      }
+      .social-icons {
+        overflow: hidden;
+        white-space: nowrap;
+        letter-spacing: 0.6em;
+      }
+      .social-icon {
+        display: inline-block;
+      }
+
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+.linky {
+  cursor: pointer;
+}
+.svg-button {
+  border: none;
+  background: inherit;
+  vertical-align: middle;
+  padding: 0;
+}
+.no-outline:active,
+.no-outline:focus {
+  outline: none;
+  border: none;
+}
+.link-normal {
+  color: #000;
+  text-decoration: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/* Fonts */
+body {
+  font-size: 10px;
+}
+
+/* General rules */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Hacks */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
