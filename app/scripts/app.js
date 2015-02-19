@@ -17,7 +17,8 @@
       'ngSanitize',
       'ngTouch',
       'directives',
-      'ioTextSlider',
+      'services',
+      'ioSlider',
       'intro'
     ])
     .config(function ($routeProvider) {

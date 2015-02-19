@@ -11,3 +11,22 @@
   -o-transition: 0.5s linear;
   transition: 0.5s linear;
 }
+
+.fade {
+  opacity: 1;
+}
+.fade.io-slider-hide {
+  opacity: 0;
+}
+.fade.io-slider-hide-add {
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.fade.io-slider-hide-remove {
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}

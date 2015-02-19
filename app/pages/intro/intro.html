@@ -1,1 +1,28 @@
-<h1>intro</h1>
+<div class="full-container intro">
+  <header class="page-header layer layer-front">
+    <io-slider class="text-white">
+      <div class="text-container column-center">
+        <io-slide class="fade">
+          <p class="uppercase text-large">
+            Мы с восхищением смотрим на героев прошлого. Для них <strong>любые преграды</strong> были не более чем испытанием воли.
+          </p>
+        </io-slide>
+        <io-slide class="fade">
+          <p class="uppercase text-large">
+            Мы с восхищением смотрим на викингов. У них такие топоры.
+          </p>
+        </io-slide>
+      </div>
+      <button io-slider-control ng-click="performAction()">next</button>
+    </io-slider>
+  </header>
+  <io-slider class="layer layer-back">
+    <io-slide>
+      <img src="images/intro/1.jpg" io-cover>
+    </io-slide>
+    <io-slide>
+      <img src="images/intro/2.jpg" io-cover>
+    </io-slide>
+  </io-slider>
+  <div class="layer layer-full layer-middle black-gradient-top"></div>
+</div>
